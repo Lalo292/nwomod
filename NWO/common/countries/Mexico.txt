@@ -1,7 +1,7 @@
 graphical_culture = Generic
 color = { 0 100 0 }
 party = {
-		name = "party_conservative_0_MEX" #NAP
+		name = "party_conservative_0_MEX" #PRI
 		citizenship_policy = full_citizenship
 		economic_policy = laissez_faire
 		ideology = conservative
@@ -23,18 +23,18 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_socialist_0_MEX" #PRI
-		citizenship_policy = residency
+		name = "party_socialist_0_MEX" #PRM
+		citizenship_policy = full_citizenship
 		economic_policy = state_capitalism
 		ideology = socialist
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pacifism
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 2092.1.1
+		end_date = 1946.1.18
 }
 party = {
-		name = "party_progressive_0_MEX" #PRD
+		name = "party_progressive_0_MEX" #PVEM
 		citizenship_policy = full_citizenship
 		economic_policy = interventionism
 		ideology = progressive
@@ -45,7 +45,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_populist_0_MEX" #PVEM
+		name = "party_populist_0_MEX" #PRD
 		citizenship_policy = residency
 		economic_policy = interventionism
 		ideology = populist
